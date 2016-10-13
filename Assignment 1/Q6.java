@@ -1,7 +1,8 @@
-/* This program will take three numbers as argument seperated 
+/* Assignment1 Question 6
+This program will take three numbers as argument seperated 
 by spaces then return the largest, the smallest and then 
 return it arranged by the largest
-*/
+<CSCI 1100><Mihyar Al-Masalma><B00759975>*/
 import java.util.Scanner; // import Scanner class
 public class Q6 {
 	public static void main(String[] args) {
@@ -24,7 +25,8 @@ public class Q6 {
 		if (num2>largest) {
 			// if 2nd number is bigger assign the 2nd number to the largest
 			largest = num2;
-		}else if(num3 > largest){
+		}
+		if(num3 > largest){
 			// if the 3rd number is bigger assign it to largest
 			largest = num3;
 		}
@@ -35,7 +37,8 @@ public class Q6 {
 		if (num2<smallest) {
 			// if 2nd number is smaller then assign it to the smallest
 			smallest = num2;
-		}else if (num3<smallest) {
+		}
+		if (num3<smallest) {
 			// if 3rd number is smaller then assign it to the smallest
 			smallest = num3;
 		}

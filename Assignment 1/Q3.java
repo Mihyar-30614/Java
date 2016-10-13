@@ -1,7 +1,7 @@
-/*
+/* Assignment1 Question 3
 this program will ask a user to enter different information then 
 print out a story made of these information
-*/
+<CSCI 1100><Mihyar Al-Masalma><B00759975>*/
 import java.util.Scanner; // Import Scanner class 
 public class Q3 {
 	public static void main(String[] args) {
@@ -42,18 +42,18 @@ public class Q3 {
 
 		if (num < 5) {
 			// if the number is less than 5 then print this story
-			System.out.println("THIS IS THE BEST STORY EVER");
-			System.out.print("My name is "+name+" and I'm from "+hometown+".");
-			System.out.print(" my favorite sport is "+sport+". I have a pet "+animal+" who");
+			System.out.println("\nTHIS IS THE BEST STORY EVER");
+			System.out.println("My name is "+name+" and I'm from "+hometown+".");
+			System.out.print("My favorite sport is "+sport+". I have a pet "+animal+"\nwho");
 			System.out.println(" I take to watch my favorite movie "+movie+".");
 			System.out.println("The End!");
 		}else{
 			// if the number is greater than 5 then print this story
-			System.out.println("THIS IS THE BEST STORY EVER");
+			System.out.println("\nTHIS IS THE BEST STORY EVER");
 			System.out.print("My name is "+name+" and I am a "+animal+".");
-			System.out.print(" I live in "+hometown+" and love to watch "+movie+" while");
-			System.out.println(" trying to play "+sport+". it does not work out so well though");
-			System.out.println(" The End!");
+			System.out.println(" I live in "+hometown+" and love to watch "+movie+" while");
+			System.out.println("trying to play "+sport+". it does not work out so well though");
+			System.out.println("The End!");
 		}
 	}
 }

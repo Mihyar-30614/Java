@@ -1,7 +1,7 @@
-/*
+/* Assignment1 Question 1
 This program will show a pyramid of 4 lines alternating between two 
-values the user enter 
-*/
+values the user enter.
+<CSCI 1100><Mihyar Al-Masalma><B00759975>*/
 import java.util.Scanner; // import Scanner class
 public class Q1{
 	public static void main(String[] args) {

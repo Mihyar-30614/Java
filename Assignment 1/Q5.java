@@ -1,6 +1,7 @@
-/* This program will take a 4 numbers input seperated by space
+/* Assignment1 Question 5 
+This program will take a 4 numbers input seperated by space
 then calculate how many pairs there is 
-*/
+<CSCI 1100><Mihyar Al-Masalma><B00759975>*/
 import java.util.Scanner; // import Scanner class
 public class Q5 {
 	public static void main(String[] args) {

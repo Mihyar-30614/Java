@@ -1,7 +1,7 @@
-/*
+/* Assignment1 Question 2
 This program will print out a pyramid of dollar signs if the number is even 
 and pyramid of astriks if the number is odd
-*/
+<CSCI 1100><Mihyar Al-Masalma><B00759975>*/
 import java.util.Scanner; // importing Scanner class
 public class Q2 {
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
-/*
+/* Assignment1 Question 4
 Thiss program should take a ticket price, tax, discount and 
 if the passenger is a child or senior citizen and then return 
 how much the passenger have to pay.
-*/
+<CSCI 1100><Mihyar Al-Masalma><B00759975>*/
 import java.util.Scanner; //import Scanner Class
 public class Q4 {
 	public static void main(String[] args) {
